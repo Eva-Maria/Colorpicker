@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#colorpicker{
+	float:left;
+	width: 270px;
+	background-color:#ddd;
+	padding:10px;
+}
+
+#new_color{
+	float: left;
+	width: 130px;
+	height: 40px;
+	background-color:#000000;
+}
+
+#current_color{
+	float: right;
+	width: 130px;
+	height: 40px;
+	background-color:#000000;
+}
+
+#colorpicker a{
+	
+	
+	color:#fff;
+	text-decoration:none;	
+}
+
+#colorpicker>ul>li{
+	list-style-image:url(../img/arrow_inactive.png);
+	list-style-position: inside;
+	background-color:#ccc;
+	color: #fff;
+	float:left;
+	width:250px;
+	padding: 3px 10px 3px 10px;
+	margin-top:10px;
+}
+
+#colorpicker .active{
+	list-style-image:url(../img/arrow_active.png);	
+}
+
+select{
+	float:left;
+	margin-top:10px;
+}
+
+#colormodes
+{
+	float:left;
+	background-color:#cccccc;
+	margin-bottom:10px;
+}
+
+#colormodes li
+{
+	display:block;
+	float:left;
+	margin-right:10px;
+	padding:2px 5px 2px 5px;
+	background-color:#aaa;
+	border:1px dotted #ffffff;
+}
+
+#colormodes li:hover{
+	background-color:#ddd;	
+	cursor:pointer;
+}
+
+#colormodes .active{
+	background-color:#ddd;
+	color: #666;
+}
+
+#picker{
+	margin-top:10px;	
+}
+
+#colorpicker .slider{
+	width: 146px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-top: 3px;
+	float:left;
+}
+
+#colorpicker .slider .ui-slider-handle{
+	margin-left:-10px;
+}
+
+#colorpicker .slider_input > div{
+	float:left;
+	height:30px;	
+}
+
+#colorpicker span{
+	float:left;
+	display:block;
+	min-width:30px;
+	color:#666;
+}
+
+#hexcontainer{
+	padding-bottom: 13px;
+}
+
+
+.add_to_fav, .add_all_to_fav{
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
